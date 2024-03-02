@@ -87,27 +87,37 @@ li {
 }
 
 #img1 {
-  width: 25%;
+  width: 31%;
   height: auto;
   margin-top: auto;
   margin-left: auto;
+  position: absolute;
+  top: 48%;
 }
 
 #img2 {
   margin-top: auto;
   height: auto;
-  width: 35%;
+  width: 40%;
+  position: absolute;
+  left: 35%;
+  top: 5%;
 }
 
 #img3 {
   height: auto;
-  width: 17%;
+  width: 22%;
   margin-left: auto;
+  position: absolute;
+  left: 78%;
+  top: 56%;
 }
 
 #images {
   display: inline;
   width: 60%;
+  position: relative;
+  padding-left: 30px;
 }
 
 div#radio-btn {
@@ -144,4 +154,3 @@ label {
   box-sizing: border-box;
   background-color: #dadad633;
 }
-
